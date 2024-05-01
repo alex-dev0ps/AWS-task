@@ -1,0 +1,5 @@
+region = "us-west-2"
+zone_id = "Z0196762BEWKEZPWP5F2"
+access_key = ""
+secret_key = ""
+instancetype = "t2.micro"

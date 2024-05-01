@@ -1,0 +1,59 @@
+ohio:
+	terraform   init   &&  terraform apply    	-var-file    regions/ohio/terraform.auto.tfvars  	-auto-approve
+
+destroy-ohio:
+	terraform   destroy    	-var-file    regions/ohio/terraform.auto.tfvars  	-auto-approve
+
+virginia:
+	terraform   init   &&  terraform apply    	-var-file    regions/virginia/terraform.auto.tfvars -auto-approve
+
+destroy-virginia:
+	terraform   destroy    	-var-file    regions/virginia/terraform.auto.tfvars -auto-approve
+
+oregon:
+	terraform   init   && terraform   apply    	-var-file    regions/oregon/terraform.auto.tfvars  	-auto-approve
+
+destroy-oregon:
+	terraform   destroy    	-var-file    regions/oregon/terraform.auto.tfvars  	-auto-approve
+
+california:
+	terraform   init   &&  terraform apply    	-var-file    regions/california/terraform.auto.tfvars -auto-approve
+
+destroy-california:
+	terraform   destroy    	-var-file    regions/california/terraform.auto.tfvars -auto-approve
+
+canada:
+	terraform   init   &&  terraform apply    	-var-file    regions/canada/terraform.auto.tfvars -auto-approve
+
+destroy-canada:
+	terraform   destroy    	-var-file    regions/canada/terraform.auto.tfvars -auto-approve
+
+ireland:
+	terraform   init   &&  terraform   apply    	-var-file    regions/ireland/terraform.auto.tfvars -auto-approve
+
+destroy-ireland:
+	terraform   destroy    	-var-file    regions/ireland/terraform.auto.tfvars -auto-approve
+
+london:
+	terraform   init   &&  terraform apply    	-var-file    regions/london/terraform.auto.tfvars -auto-approve
+
+destroy-london:
+	terraform   destroy    	-var-file    regions/london/terraform.auto.tfvars -auto-approve
+
+singapore:
+	terraform   init   &&  terraform apply    	-var-file    regions/singapore/terraform.auto.tfvars -auto-approve
+
+destroy-singapore:
+	terraform   destroy    	-var-file    regions/singapore/terraform.auto.tfvars -auto-approve
+
+tokyo:
+	terraform   init   &&  terraform apply    	-var-file    regions/tokyo/terraform.auto.tfvars -auto-approve
+	
+destroy-tokyo:
+	terraform   destroy    	-var-file    regions/tokyo/terraform.auto.tfvars -auto-approve
+
+sydney:
+	terraform   init   &&  terraform apply    	-var-file    regions/sydney/terraform.auto.tfvars -auto-approve
+
+destroy-sydney:
+	terraform   destroy    	-var-file    regions/sydney/terraform.auto.tfvars -auto-approve	
